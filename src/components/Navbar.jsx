@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 import { IoPersonCircleSharp } from "react-icons/io5";
-
+import "../dashboard.json"
 
 const Navbar = () => {
   return (
