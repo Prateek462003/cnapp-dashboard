@@ -24,7 +24,7 @@ const AddCategory = () => {
               <div key={widget.id} className='flex items-center mb-2'>
                 <input
                   type='checkbox'
-                  checked={widget.selected || false}
+                  checked={true}
                   onChange={() => handleToggle(category.id, widget.id, widget.selected)}
                 />
                 <label className='ml-2'>{widget.name}</label>
